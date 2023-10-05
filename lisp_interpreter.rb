@@ -1,4 +1,6 @@
-
+def tokenize(s)
+  s.gsub( /\(/, ' ( ' ).gsub( /\)/, ' ) ' ).split
+end
 
 def car(list)
   return nil if list.nil?
